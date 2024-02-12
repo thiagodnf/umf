@@ -1,25 +1,3 @@
-@font-face {
-    font-family: "Lato";
-    src: url(Lato-Regular.woff2);
-    font-weight: normal;
-}
-
-@font-face {
-    font-family: "Lato";
-    src: url(Lato-Bold.woff2);
-    font-weight: bold;
-}
-
-@font-face {
-    font-family: "Lato";
-    src: url(Lato-Italic.woff2);
-    font-style: italic;
-}
-
-body {
-    font-family: "Lato Extended", "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
-}
-
 h3 {
     color: #00274c
 }
