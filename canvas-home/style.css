@@ -1,3 +1,36 @@
 h3 {
     color: #00274c
 }
+
+@media (min-width: 576px) {
+    .banner {
+        font-size: 40px !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .banner {
+        font-size: 50px  !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .banner {
+        font-size: 60px  !important;
+    }
+}
+
+.banner {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 3px 3px black;
+    background-image: linear-gradient(to right, black 20%, transparent 70%), url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.banner span{
+    background-image: url("bg-1.png");
+    background-size: 100% 100%;
+}
