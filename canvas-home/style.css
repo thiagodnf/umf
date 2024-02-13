@@ -2,16 +2,18 @@ h3 {
     color: #00274c
 }
 
-@media (max-width: 575.98px) { 
-    .banner .title, .banner .subtitle {
+@media (max-width: 575.98px) {
+    .banner .title {
         font-size: 15px !important;
+    }
+
+    .banner .subtitle {
+        font-size: 12px !important;
     }
 }
 
-
-
 .banner {
-    background-image: linear-gradient(to right, black 20%, transparent 70%), url("bg.jpg");
+    background-image: linear-gradient(to right, black 20%, transparent 100%), url("bg.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     text-shadow: 3px 3px black;
